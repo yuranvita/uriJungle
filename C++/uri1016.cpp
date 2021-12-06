@@ -4,22 +4,14 @@ using namespace std;
  
 int main() {
   
-  float vX = 60 , vY = 90  ;
-  
-  int time = 0 , distance , diff , carroX , carroY;
+  int time , distance;
 
   cin>>distance; 
 
-  while (diff != 30)
-  {
-    time += 1 ;
 
-    carroX = vX*time;
-  }
-  
+  time = 2*distance;
 
   
-
   cout<<time<<" minutos"<<endl;
  
   return 0;
